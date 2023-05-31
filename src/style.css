@@ -1,0 +1,29 @@
+.scrollable-container {
+	/* Set dimensions of the container */
+	width: 300px;
+	height: 200px;
+	overflow: auto;
+  
+	/* Style the scrollbar */
+	scrollbar-width: thin;
+	scrollbar-color: #888 #f5f5f5;
+  
+	/* WebKit */
+	&::-webkit-scrollbar {
+	  width: 8px;
+	}
+  
+	&::-webkit-scrollbar-track {
+	  background-color: #f5f5f5;
+	}
+  
+	&::-webkit-scrollbar-thumb {
+	  background-color: #888;
+	  border-radius: 4px;
+	}
+  
+	&::-webkit-scrollbar-thumb:hover {
+	  background-color: #555;
+	}
+  }
+  
